@@ -62,8 +62,8 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
       <Filter>Actifs</Filter>
     </Image>
-    <Filter Include="Ressources 3d">
-      <UniqueIdentifier>{ff03b835-2bba-43c6-867d-86ba7076906c}</UniqueIdentifier>
+    <Filter Include="Ressouces 3D">
+      <UniqueIdentifier>{c42be13a-ad42-44e1-bd2c-65d42636dafa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -96,8 +96,8 @@
     <Page Include="DirectXPage.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <MeshContentTask Include="..\..\..\..\Desktop\barre_3d.fbx">
-      <Filter>Ressources 3d</Filter>
+    <MeshContentTask Include="Ressouces 3D\barre_3d.fbx">
+      <Filter>Ressouces 3D</Filter>
     </MeshContentTask>
   </ItemGroup>
 </Project>
