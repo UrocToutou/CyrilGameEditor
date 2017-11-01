@@ -33,6 +33,11 @@ App::App()
 	Resuming += ref new EventHandler<Object^>(this, &App::OnResuming);
 }
 
+void test()
+{
+
+}
+
 /// <summary>
 /// Invoqué lorsque l'application est lancée normalement par l'utilisateur final.  D'autres points d'entrée
 /// sont utilisés lorsque l'application est lancée pour ouvrir un fichier spécifique, pour afficher
